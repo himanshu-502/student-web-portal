@@ -1,5 +1,5 @@
 <?php
-$conn= mysqli_connect("localhost","root","himanshu","webportal");
+$conn= mysqli_connect("localhost","root","database_password","database_name");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
   }
